@@ -10,8 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  protobuf: ^2.0.0
-  reactive_ble_platform_interface: ^5.3.1
+  protobuf: 3.1.0
+  reactive_ble_platform_interface:
+    path: ../reactive_ble_platform_interface
 
 dev_dependencies:
   build_runner: ^2.3.3
